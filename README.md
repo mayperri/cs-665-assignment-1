@@ -1,29 +1,42 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Name         | May Perriello              |
+| Date         | 9/26/23                    |
+| Course       | Fall                       |
+| Assignment # | Assignment 1: Fully Automatic <br/>Beverage Vending Machine             |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+This assignment asked to implement a machine that produces coffee and tea. 
+It required the user to have 3 choice of each and the option to add a small amount
+of milk or sugar to their beverage. 
+
+My code prompts user input to select valid choices that abide by the requirements of 
+the assignment and ultimately produces a drink with the correct beverage variety
+and specifications as well as the correct amount of milk and sugar selected. 
+
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/mayperri/cs-665-assignment-1
 
-# Implementation Description 
-
+# Implementation Description
 
 For each assignment, please answer the following:
-
+- My assumptions
+  - The user will always get a beverage when first prompting the machine. I did not provide an option for them to exit without finishing their beverage. 
+  - Any drink would have up to the max amount of milk and sugar they wanted. 
+  - The user can read and write in english.
 - Explain the level of flexibility in your implementation, including how new object types can
 be easily added or removed in the future.
+  - My code is fairly flexible in that other options of tea or coffee could be added easily. But there is a bit in inflexibility with duplicate code for both the tea and coffee class. I do believe there is a better way to complete this assignment. 
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
 easy for others to read and maintain.
+  - Yes. My code is straightforward and well documented and the method and variables clearly names so that others can read and maintain this code. 
 - Describe how you have avoided duplicated code and why it is important.
+  - One way that I avoided duplicate code is through the use of the condiment class. Since this option is available for both coffee and tea, rather than having it in each of the classes I created a separate class with these methods.
 - If applicable, mention any design patterns you have used and explain why they were
 chosen.
+  - I did not use any design patterns in this assignment. 
 
 
 # Maven Commands
